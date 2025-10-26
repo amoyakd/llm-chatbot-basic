@@ -1,0 +1,5 @@
+panel
+python-dotenv
+pandas
+numpy
+ollama
