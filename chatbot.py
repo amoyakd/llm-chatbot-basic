@@ -67,8 +67,14 @@ Relevant product information:
     if debug: print(f"Final response: {final_response}")
     if debug:print("Step 4: Generated response to user question.")
     
+    # Augment the user's message with product information for context
+    if product_information:
+        user_message_for_history = user_message_with_context
+    else:
+        user_message_for_history = user_input
+
     updated_history = all_messages + [
-        {'role': 'user', 'content': user_input},
+        {'role': 'user', 'content': user_message_for_history},
         {'role': 'assistant', 'content': final_response}
     ]
 
