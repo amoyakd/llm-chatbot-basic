@@ -1,4 +1,4 @@
-This project is a customer service chatbot for a large electronics store. It uses the OpenAI API to generate responses and the `panel` library to create a simple graphical user interface.
+This project is a customer service chatbot for a large electronics store. It uses the Llama 3.2 locally via Ollama to generate responses and the `panel` library to create a simple graphical user interface.
 
 Here's a breakdown of the Python files:
 
