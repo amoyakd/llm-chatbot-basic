@@ -2,6 +2,8 @@
 
 This project is a customer service chatbot for a large electronics store. It uses the Llama 3.2 model locally via Ollama to generate responses and the `panel` library to create a simple graphical user interface.
 
+Learn more at [text](https://blogs-amoydutta.hashnode.dev/building-a-basic-product-inquiry-chatbot-with-an-llm-part-1-understanding-user-intent)
+
 ## Features
 
 *   Answers customer questions about products.
